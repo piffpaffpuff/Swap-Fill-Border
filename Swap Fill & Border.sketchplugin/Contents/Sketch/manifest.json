@@ -1,10 +1,11 @@
 {
   "name" : "Swap Fill & Border",
-  "identifier" : "ch.iwannegro.plugin.swapfillborder",
+  "identifier" : "ch.iwannegro.sketch.plugin.swapfillborder",
   "version" : "1.0",
   "description" : "Swap the Fill and Border Style of a Shape",
   "authorEmail" : "hallo@iwannegro.ch",
   "author" : "Iwan Negro",
+  "appcast" : "https://api.sketchpacks.com/v1/plugins/ch.iwannegro.sketch.plugin.swapfillborder/appcast",
 
   "commands" : [
     {

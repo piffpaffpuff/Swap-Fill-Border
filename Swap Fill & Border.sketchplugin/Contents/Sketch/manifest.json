@@ -1,0 +1,25 @@
+{
+  "name" : "Swap Fill & Border",
+  "identifier" : "ch.iwannegro.plugin.swapfillborder",
+  "version" : "1.0",
+  "description" : "Swap the Fill and Border Style of a Shape",
+  "authorEmail" : "hallo@iwannegro.ch",
+  "author" : "Iwan Negro",
+
+  "commands" : [
+    {
+      "script" : "SwapFillBorder.js",
+      "handler" : "swapFillBorder",
+      "shortcut" : "control x",
+      "name" : "Swap Fill & Border",
+      "identifier" : "ch.iwannegro.command.swapfillborder"
+    }
+  ],
+
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "ch.iwannegro.command.swapfillborder"
+    ]
+  },
+}
